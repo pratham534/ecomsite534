@@ -17,7 +17,7 @@ export default function Menu(history, path) {
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary" >
-                <div className="container-fluid">
+                <div className="container-fluid d-flex justify-content-between">
                     <Link className="navbar-brand navbar-text text-black" to='/'>Shopical</Link>
                     <div className="collapse navbar-collapse gap-2" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-lg-0 d-flex">
