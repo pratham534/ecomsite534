@@ -35,7 +35,7 @@ export default function Card({reload, setReload, ...props}) {
                 <div className="card-body p-3">
                     <h5 className="card-title">{item.name}</h5>
                     <p className="card-text m-0 mt-1 mb-1">{item.desc}</p>
-                    <p className="card-text m-0 mt-1 mb-1">Price : ${item.price}</p>
+                    <p className="card-text m-0 mt-1 mb-1">Price : Rs. {item.price}</p>
                     {
                         props.add && <div className="btn btn-light border mt-3" onClick={addToCart}>Add to Cart</div>
                     }
